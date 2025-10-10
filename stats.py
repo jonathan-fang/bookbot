@@ -33,7 +33,6 @@ def char_dict_to_sorted_list(char_dict):
         # start with trying to make the whole function work then make helper functions?
         small_char_dict["num"] = char_dict[char]
         list_of_dicts.append(small_char_dict)
-        # if char.isalpha(): # only include alphanumeric characters
     # output sorted list of dictionaries
     list_of_dicts.sort(reverse=True, key=find_num_key)
     return list_of_dicts

@@ -1,15 +1,12 @@
 from stats import book_text_to_word_count, book_text_to_char_count, char_dict_to_sorted_list
 
-def get_book_text(filepath):
-    # from 4.2.3 currently inactive
-    # intakes filepath
-    with open(filepath) as f:
-        file_contents = f.read()
-    # output returns contents of file as string
-    return file_contents
-
-def pretty_report():
-    pass
+# def get_book_text(filepath):
+#     # from 4.2.3 currently inactive
+#     # intakes filepath
+#     with open(filepath) as f:
+#         file_contents = f.read()
+#     # output returns contents of file as string
+#     return file_contents
 
 def main():
     print("============ BOOKBOT ============")
