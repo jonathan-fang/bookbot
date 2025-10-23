@@ -1,6 +1,11 @@
 import sys
 import os
-from stats import book_text_to_word_count, book_text_to_char_count, char_dict_to_sorted_list
+from stats import (
+    book_text_to_word_count,
+    book_text_to_char_count,
+    char_dict_to_sorted_list,
+)
+
 
 def main():
     if len(sys.argv) != 2:
@@ -16,9 +21,10 @@ def main():
     print(f"Found {book_text_to_word_count(filepath)} total words")
     print("--------- Character Count -------")
     for item in char_dict_to_sorted_list(book_text_to_char_count(filepath)):
-        if item['char'].isalpha(): # only include alphanumeric characters
+        if item["char"].isalpha():  # only include alphanumeric characters
             print(f"{item['char']}: {item['num']}")
     print("============= END ===============")
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()

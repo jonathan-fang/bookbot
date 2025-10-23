@@ -1,0 +1,15 @@
+astroid @ file:///home/task_175935527450679/conda-bld/astroid_1759355347762/work
+black @ file:///home/task_176063237667691/conda-bld/black_1760632443031/work
+click @ file:///croot/click_1754477934456/work
+dill @ file:///home/task_176009667689459/conda-bld/dill_1760096782339/work
+isort @ file:///home/task_176008908603411/conda-bld/isort_1760089146736/work
+mccabe @ file:///opt/conda/conda-bld/mccabe_1644221741721/work
+mypy_extensions @ file:///work/perseverance-python-buildout/croot/mypy_extensions_1728396986675/work
+packaging @ file:///home/task_176104878999627/conda-bld/packaging_1761049078606/work
+pathspec @ file:///croot/pathspec_1753774738479/work
+platformdirs @ file:///croot/platformdirs_1744273042065/work
+pylint @ file:///croot/pylint_1756453312171/work
+pytokens @ file:///home/task_176062982073584/conda-bld/pytokens_1760629831591/work
+setuptools==80.9.0
+tomlkit @ file:///io/perseverance-python-buildout/croot/tomlkit_1731700468384/work
+wheel==0.45.1
