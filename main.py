@@ -1,9 +1,13 @@
 import sys
+import os
 from stats import book_text_to_word_count, book_text_to_char_count, char_dict_to_sorted_list
 
 def main():
     if len(sys.argv) != 2:
         print("Usage: python3 main.py <path_to_book>")
+        sys.exit(1)
+    if not os.path.isfile(sys.argv[1]):
+        print(f"Error: File '{sys.argv[1]}' not found.")
         sys.exit(1)
     filepath = sys.argv[1]
     print("============ BOOKBOT ============")
